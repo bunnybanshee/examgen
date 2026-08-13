@@ -1,7 +1,7 @@
 # ExamGen - Exam Question Bank Manager
 
 A full-stack tool for lecturers to manage a question bank and auto-generate
-balanced, non-overlapping exam variants (A, B, C…) with answer keys —
+balanced, non-overlapping exam variants (A, B, C…) with answer keys -
 built to replace manually assembling exam sets in Word.
 
 **Stack:** React + TypeScript + Tailwind CSS (frontend) · Django + Django REST Framework (backend) · SQLite (dev)
