@@ -1,4 +1,4 @@
-# ExamGen — Exam Question Bank Manager
+# ExamGen - Exam Question Bank Manager
 
 A full-stack tool for lecturers to manage a question bank and auto-generate
 balanced, non-overlapping exam variants (A, B, C…) with answer keys —
@@ -8,9 +8,9 @@ built to replace manually assembling exam sets in Word.
 
 ## Why this exists
 
-Setting multiple exam variants by hand — pulling questions, balancing
+Setting multiple exam variants by hand - pulling questions, balancing
 difficulty and topic coverage, keeping the correct-answer letters from
-clustering on "B" — is slow and error-prone. This tool automates it:
+clustering on "B" - is slow and error-prone. This tool automates it:
 
 - Store questions once, tagged by course, topic, difficulty, and type (MCQ or fill-in-the-blank)
 - Generate N exam variants at once, each with no overlapping questions
