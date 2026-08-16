@@ -79,10 +79,3 @@ The interesting part lives in `backend/examdata/generator.py`:
 | `/api/topics/?course=<id>` | GET, POST | List/create topics for a course |
 | `/api/questions/?course=<id>` | GET, POST, PATCH, DELETE | Manage the question bank |
 | `/api/exam-versions/generate/` | POST | Generate N balanced exam variants |
-
-## Notes
-
-This was built as a portfolio/demo project modeling a real workflow (generating
-multiple exam types with answer keys for a university course), not a production
-deployment — there's no auth layer yet, and SQLite is fine for local use but
-would want swapping for Postgres in production.
